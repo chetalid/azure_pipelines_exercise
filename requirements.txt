@@ -9,7 +9,6 @@
 #pytest==7.1.2
 
 # Original versions from starter code
-Flask==1.0.2
 pandas==0.24.2
 scikit-learn==0.20.3
 
