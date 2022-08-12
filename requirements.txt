@@ -18,5 +18,6 @@ pylint==2.6.0
 pytest==6.0.2
 pytest-cov==2.10.1
 locust
-
+Jinja2==3.1.1
+Flask==2.0.3
 #nbval==0.9.6           # notebook tests wont be used
