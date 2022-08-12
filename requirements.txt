@@ -1,9 +1,22 @@
-Flask==2.1.1
-pandas==1.3.5
-scikit-learn==1.0.2
-importlib-metadata==4.11.3
-virtualenv==20.14.1
-argcomplete==2.0.0
-joblib==1.1.0
-pylint==2.13.7
-pytest==7.1.2
+#Flask==2.1.1
+#pandas==1.3.5
+#scikit-learn==1.0.2
+#importlib-metadata==4.11.3
+#virtualenv==20.14.1
+#argcomplete==2.0.0
+#joblib==1.1.0
+#pylint==2.13.7
+#pytest==7.1.2
+
+# Original versions from starter code
+Flask==1.0.2
+pandas==0.24.2
+scikit-learn==0.20.3
+
+# Added to allow linting and tests + coverage
+pylint==2.6.0
+pytest==6.0.2
+pytest-cov==2.10.1
+locust
+
+#nbval==0.9.6           # notebook tests wont be used
