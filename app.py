@@ -7,7 +7,6 @@ from sklearn.preprocessing import StandardScaler
 
 from jinja2.utils import markupsafe 
 markupsafe.Markup()
-Markup('')
 
 app = Flask(__name__)
 LOG = create_logger(app)
