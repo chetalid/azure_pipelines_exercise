@@ -18,14 +18,23 @@ Pushes to the GitHub repository's main branch trigger:
  
 -Table of Contents
 1)Main Steps
+
 2)Architectural Diagram
+
 3)Project Plan
-	i)Instructions
-	ii)Architectural Diagram
-	iii)Project Dependencies
-	iv)Getting Started
+
+i)Instructions
+
+ii)Architectural Diagram
+
+iii)Project Dependencies
+
+iv)Getting Started
+
 4)Running the Python project with Screenshots
+
 5)Future Enhancements
+
  
 Main Steps
 The project consist of the following main steps:
@@ -78,11 +87,13 @@ This should result in the app running in the cloud and being accessible from the
  
 **Passing tests that are displayed after running the make all command from the Makefile**
 	
+	![Make_All](https://user-images.githubusercontent.com/18601050/184722679-c936a9f6-4d1f-4ca2-8c2e-53f3da8ba67b.png)
+
 	
-	![Make_All](https://user-images.githubusercontent.com/18601050/184720347-29487136-793c-4a54-9983-27d0831f2c9c.png)
+	
+	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184722703-6b26bda7-5878-4e85-8458-924a1b9f11c7.png)
 
-
-	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184721642-fe10cfbc-5e00-4f6a-bd4e-4d932d4de30a.png)
+	
 
 	
 
@@ -90,7 +101,8 @@ This should result in the app running in the cloud and being accessible from the
 	
 	
 	
-	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184721690-a66a49fc-0fbf-4d4b-b50f-3b58d9250065.png)
+	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184722740-5081b8dd-a9fe-4822-9f76-63570a1e01bf.png)
+
 
 
 
@@ -109,23 +121,24 @@ This should result in the app running in the cloud and being accessible from the
 
 Running Azure App Service from Azure Pipelines automatic deployment
 	
+![flask_ml_webapp_URL](https://user-images.githubusercontent.com/18601050/184722885-114573fa-a7fb-4714-a646-32ff981e03df.png)
 
-	![flask_ml_webapp_URL](https://user-images.githubusercontent.com/18601050/184722125-848c1247-9f3c-48a8-b743-3c4f8ca9040c.png)
-
-
+	
+	
 
 Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
 	
-	![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184722173-75304c1e-d410-4fa6-a62b-6d7e20ce7290.png)
+	
+	![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184722922-aa0c3ef4-6051-4b66-9b29-e31ec7c035db.png)
 
 
 	
 Output of streamed log files from deployed application
 	
 	
-	![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184722197-cef3cd1c-165b-4d42-8ca4-d3948fbcd532.png)
+	![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184722938-4ca010dc-807b-436f-9a79-bdaa46fbfa7f.png)
 
-
+	
 
 Enhancements
 This project can be adapted for use in a microservice architecture where the application is deployed into Azure from a Kubernetes cluster.
