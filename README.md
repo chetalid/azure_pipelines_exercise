@@ -4,25 +4,28 @@ A sample Flask application to showcase the Azure Pipeline.
 ## Environment
 Python 3.7
 
-Overview of CI/CI Pipeline for Azure WebApp Deeployment 
+		**Overview of CI/CI Pipeline for Azure WebApp Deployment **
+		
 The goal of this project is to create infrastructure as code (IaC) in the form of a Terraform template as well as a Packer configuration to deploy a highly available website with a load balancer, as shown in the diagram below. The infrastructure is deployed into Azure in a customizable way based on specifications provided at build time, with an eye toward scaling the application for use in a CI/CD pipeline.
+
 The project contains a Python Flask WebApp which serves out housing prices predictions through API calls. The algorithm is based on pre-trained sklearn ML model for Boston area.
+
 This is a Project 2 submission demonstrating CI/CD techiques and skills acquired in the course.
 Pushes to the GitHub repository's main branch trigger:
-Continuous Integration pipeline on GitHub Actions.
-Continuous Delivery pipeline on Azure Pipelines.
+
+1)Continuous Integration pipeline on GitHub Actions.
+2)Continuous Delivery pipeline on Azure Pipelines.
  
-Table of Contents
-Main Steps
-Architectural Diagram
-Project Plan
-Instructions
-Architectural Diagram
-Project Dependencies
-Getting Started
-Running the Python project
-Screenshots
-Future Enhancements
+-Table of Contents
+1)Main Steps
+2)Architectural Diagram
+3)Project Plan
+	i)Instructions
+	ii)Architectural Diagram
+	iii)Project Dependencies
+	iv)Getting Started
+4)Running the Python project with Screenshots
+5)Future Enhancements
  
 Main Steps
 The project consist of the following main steps:
@@ -33,9 +36,9 @@ Deploying the infrastructure
    Project Plan
 Below are the links of Trello board and spreadsheet having the task details
 A link to a Trello board for the project
-https://trello.com/b/YImOmwev/udacitycicdproject
+	https://trello.com/b/YImOmwev/udacitycicdproject
 A link to a spreadsheet that includes the original and final project plan
-https://docs.google.com/spreadsheets/d/1xiUUmG4Ml3QKtJ14i1DrW9OuS8F8olzu6mtcofrdY1Q/edit#gid=0
+	https://docs.google.com/spreadsheets/d/1xiUUmG4Ml3QKtJ14i1DrW9OuS8F8olzu6mtcofrdY1Q/edit#gid=0
  
 Instructions
 Architectural Diagram
@@ -73,43 +76,55 @@ Install & activate virtual environment, install dependencies.
 Create a webapp and deploy code from a local workspace to the app.
 This should result in the app running in the cloud and being accessible from the internet. Expected output for successfull deployment:
  
-Passing tests that are displayed after running the make all command from the Makefile
+**Passing tests that are displayed after running the make all command from the Makefile**
+	
+	
 	![Make_All](https://user-images.githubusercontent.com/18601050/184720347-29487136-793c-4a54-9983-27d0831f2c9c.png)
 
 
-	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184720515-98f59b6d-c353-471d-9f00-4c3c7d588e38.png)
+	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184721642-fe10cfbc-5e00-4f6a-bd4e-4d932d4de30a.png)
 
 	
-Output of a test run
+
+	**Output of a test run**
 	
-	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184720549-7e457687-75a4-411e-8668-cf46f5d4ab8f.png)
+	
+	
+	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184721690-a66a49fc-0fbf-4d4b-b50f-3b58d9250065.png)
 
 
-Successful deploy of the project in Azure Pipelines. 
+
+**Successful deploy of the project in Azure Pipelines.** 
 
  
 ![AzurePipelineBuild1](https://user-images.githubusercontent.com/18601050/184720564-013e30c9-b9d3-4594-be20-052f94e52658.png)
+	
 
 	
 ![AzurePipelineDeploy](https://user-images.githubusercontent.com/18601050/184720621-86edc3ca-f3aa-4afe-a31e-127ed6d8bea9.png)
 
  
-	![AzurePipelineDeployFinal](https://user-images.githubusercontent.com/18601050/184720642-94aa7da2-a22e-4fff-ac71-54382de352e6.png)
+	
 
 
 Running Azure App Service from Azure Pipelines automatic deployment
 	
-	![flask_ml_webapp_URL](https://user-images.githubusercontent.com/18601050/184720703-37d12ef7-ba77-4b08-9a3b-90cb985be788.png)
+
+	![flask_ml_webapp_URL](https://user-images.githubusercontent.com/18601050/184722125-848c1247-9f3c-48a8-b743-3c4f8ca9040c.png)
+
 
 
 Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
 	
-	![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184720734-c6aa04ba-e2b5-4d3f-a218-fe9ad38db59f.png)
+	![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184722173-75304c1e-d410-4fa6-a62b-6d7e20ce7290.png)
+
 
 	
 Output of streamed log files from deployed application
 	
-	![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184720770-3cecfa4a-7fe6-4ea2-b0d0-be0b53e03af4.png)
+	
+	![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184722197-cef3cd1c-165b-4d42-8ca4-d3948fbcd532.png)
+
 
 
 Enhancements
