@@ -105,12 +105,13 @@ This should result in the app running in the cloud and being accessible from the
 
 	
 
-	**Output of a test run**
+**Output of a test run**
 	
 	
 	
 	
-	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184723394-9b043663-acc9-4d1e-93cc-162f317748ec.png)
+
+![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184724283-476a2f7b-dac0-48d0-9cc8-93a37d1a3f37.png)
 
 	
 
@@ -136,13 +137,15 @@ This should result in the app running in the cloud and being accessible from the
 
 	
 	
-	![AzurePipelineDeployFinal](https://user-images.githubusercontent.com/18601050/184723480-d21c740c-0e83-44a4-9ca9-7746c280de96.png)
+	
+![AzurePipelineDeployFinal](https://user-images.githubusercontent.com/18601050/184724332-27cb7aca-81b8-4131-96fb-7a1e8e62dc03.png)
 
 	
 	
 	
 	
 	
+
 Running Azure App Service from Azure Pipelines automatic deployment
 	
 	
@@ -155,6 +158,8 @@ Running Azure App Service from Azure Pipelines automatic deployment
 	
 	
 
+	
+	
 Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
 	
 	
@@ -162,6 +167,10 @@ Successful prediction from deployed flask app in Azure Cloud Shell. The output s
 	
 ![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184723109-6968feaf-42ec-4c42-b620-00966d72abae.png)
 
+
+	
+	
+	
 
 	
 	
@@ -181,6 +190,10 @@ Output of streamed log files from deployed application
 	
 
 
+
+	
+
+	
 Enhancements
 	
 	
