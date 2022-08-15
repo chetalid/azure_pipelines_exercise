@@ -33,11 +33,11 @@ This is a Project 2 submission demonstrating CI/CD techiques and skills acquired
 
 ## Demo
  
-Main Steps
-The project consist of the following main steps:
-Creating a Packer template
-Creating a Terraform template
-Deploying the infrastructure
+## Main Steps
+1. The project consist of the following main steps:
+2. Creating a Packer template
+3. Creating a Terraform template
+4. Deploying the infrastructure
  
 
  
