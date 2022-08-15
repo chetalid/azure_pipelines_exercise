@@ -88,13 +88,15 @@ This should result in the app running in the cloud and being accessible from the
 **Passing tests that are displayed after running the make all command from the Makefile**
 	
 	
+	![Make_All](https://user-images.githubusercontent.com/18601050/184724084-45ffd060-873c-417b-a147-df50d1c6af2f.png)
+
 	
-	![Make_All](https://user-images.githubusercontent.com/18601050/184723407-3f6b4313-315c-4edb-9ff4-9dda76f24ca7.png)
 
 	
 	
 	
-	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184723422-bbff16ea-71a8-4a8d-8639-ce210e7ea3b5.png)
+	
+![GithubActions_Passed](https://user-images.githubusercontent.com/18601050/184724105-3fb199a3-d514-4ba9-aa82-09ad9e47122c.png)
 
 	
 	
