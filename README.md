@@ -87,12 +87,16 @@ This should result in the app running in the cloud and being accessible from the
  
 **Passing tests that are displayed after running the make all command from the Makefile**
 	
-	![Make_All](https://user-images.githubusercontent.com/18601050/184722679-c936a9f6-4d1f-4ca2-8c2e-53f3da8ba67b.png)
+	
+	
+	![Make_All](https://user-images.githubusercontent.com/18601050/184723407-3f6b4313-315c-4edb-9ff4-9dda76f24ca7.png)
 
 	
 	
-	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184722703-6b26bda7-5878-4e85-8458-924a1b9f11c7.png)
+	
+	![GitActions_Lint_Test_Passed](https://user-images.githubusercontent.com/18601050/184723422-bbff16ea-71a8-4a8d-8639-ce210e7ea3b5.png)
 
+	
 	
 
 	
@@ -101,15 +105,22 @@ This should result in the app running in the cloud and being accessible from the
 	
 	
 	
-	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184722740-5081b8dd-a9fe-4822-9f76-63570a1e01bf.png)
+	
+	![Test_Case_Result](https://user-images.githubusercontent.com/18601050/184723394-9b043663-acc9-4d1e-93cc-162f317748ec.png)
+
+	
 
 
 
 
 **Successful deploy of the project in Azure Pipelines.** 
 
+	
+	
  
 ![AzurePipelineBuild1](https://user-images.githubusercontent.com/18601050/184720564-013e30c9-b9d3-4594-be20-052f94e52658.png)
+	
+	
 	
 
 	
@@ -119,21 +130,41 @@ This should result in the app running in the cloud and being accessible from the
 	
 
 
+	
+	
+	![AzurePipelineDeployFinal](https://user-images.githubusercontent.com/18601050/184723480-d21c740c-0e83-44a4-9ca9-7746c280de96.png)
+
+	
+	
+	
+	
+	
 Running Azure App Service from Azure Pipelines automatic deployment
+	
+	
+	
 	
 ![flask_ml_webapp_URL](https://user-images.githubusercontent.com/18601050/184722885-114573fa-a7fb-4714-a646-32ff981e03df.png)
 
+	
+	
 	
 	
 
 Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
 	
 	
+	
+	
 ![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184723109-6968feaf-42ec-4c42-b620-00966d72abae.png)
 
 
 	
+	
+	
 Output of streamed log files from deployed application
+
+	
 	
 	
 ![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184723143-7623e309-d13b-4697-ad1e-1fc07c971487.png)
@@ -141,7 +172,12 @@ Output of streamed log files from deployed application
 
 	
 
-Enhancements
+
+	
+	
+	Enhancements
+	
+	
 This project can be adapted for use in a microservice architecture where the application is deployed into Azure from a Kubernetes cluster.
 Demo
 
