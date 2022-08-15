@@ -88,7 +88,9 @@ This should result in the app running in the cloud and being accessible from the
 **Passing tests that are displayed after running the make all command from the Makefile**
 	
 	
-	![Make_All](https://user-images.githubusercontent.com/18601050/184724084-45ffd060-873c-417b-a147-df50d1c6af2f.png)
+	
+	
+![Make_All](https://user-images.githubusercontent.com/18601050/184724208-efd7c307-9d3b-4c0d-81aa-9702b1973c82.png)
 
 	
 
@@ -177,7 +179,9 @@ Output of streamed log files from deployed application
 
 	
 	
-	Enhancements
+
+
+Enhancements
 	
 	
 This project can be adapted for use in a microservice architecture where the application is deployed into Azure from a Kubernetes cluster.
