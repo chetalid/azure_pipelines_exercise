@@ -1,40 +1,35 @@
-# flask-ml-service
+# Azure WebApp Deployment 
 A sample Flask application to showcase the Azure Pipeline.
 
 ## Environment
 Python 3.7
 
-		**Overview of CI/CI Pipeline for Azure WebApp Deployment **
+# Overview of CI/CI Pipeline for Azure WebApp Deployment **
 		
 The goal of this project is to create infrastructure as code (IaC) in the form of a Terraform template as well as a Packer configuration to deploy a highly available website with a load balancer, as shown in the diagram below. The infrastructure is deployed into Azure in a customizable way based on specifications provided at build time, with an eye toward scaling the application for use in a CI/CD pipeline.
 
 The project contains a Python Flask WebApp which serves out housing prices predictions through API calls. The algorithm is based on pre-trained sklearn ML model for Boston area.
 
 This is a Project 2 submission demonstrating CI/CD techiques and skills acquired in the course.
-Pushes to the GitHub repository's main branch trigger:
 
-1)Continuous Integration pipeline on GitHub Actions.
-2)Continuous Delivery pipeline on Azure Pipelines.
+- Pushes to the GitHub repository's main branch trigger:
+
+* 1)Continuous Integration pipeline on GitHub Actions.
+* 2)Continuous Delivery pipeline on Azure Pipelines.
  
--Table of Contents
-1)Main Steps
+## Table of Contents
+- [Demo](#demo)
+- [Architectural Diagram](#architectural-diagram)
+- [Project Plan](#project-plan)
+- [Instructions](#instructions)
+  * [Dependencies](#dependencies)
+  * [Getting Started](#getting-started)
+  * [Running the Python project](#running-the-python-project)
+- [Alternative deployment via script using Terraform](#alternative-deployment-via-script-using-terraform)
+- [Screenshots](#screenshots)
+- [Future Enhancements](#future-enhancements)
 
-2)Architectural Diagram
-
-3)Project Plan
-
-i)Instructions
-
-ii)Architectural Diagram
-
-iii)Project Dependencies
-
-iv)Getting Started
-
-4)Running the Python project with Screenshots
-
-5)Future Enhancements
-
+## Demo
  
 Main Steps
 The project consist of the following main steps:
@@ -42,50 +37,65 @@ Creating a Packer template
 Creating a Terraform template
 Deploying the infrastructure
  
-   Project Plan
+
+ 
+## Architectural Diagram
+
+ 
+ <img width="619" alt="azure-devops-project2-architecture" src="https://user-images.githubusercontent.com/18601050/184720437-2707d201-274f-4e8e-ba67-27e68f572a91.png">
+
+
+
+ ## Project Plan
 Below are the links of Trello board and spreadsheet having the task details
 A link to a Trello board for the project
 	https://trello.com/b/YImOmwev/udacitycicdproject
 A link to a spreadsheet that includes the original and final project plan
 	https://docs.google.com/spreadsheets/d/1xiUUmG4Ml3QKtJ14i1DrW9OuS8F8olzu6mtcofrdY1Q/edit#gid=0
- 
-Instructions
-Architectural Diagram
- 
- <img width="619" alt="azure-devops-project2-architecture" src="https://user-images.githubusercontent.com/18601050/184720437-2707d201-274f-4e8e-ba67-27e68f572a91.png">
 
+## Instructions
 
-Project Dependencies
-Create an Azure Account
-Install the Azure command line interface
-Install Packer
-Install Terraform
+### Dependencies
+
+1. Create an Azure Account
+2. Install the Azure command line interface
+3. Install Packer
+4. Install Terraform
  
-Getting Started
-Open Azure cloud shell
-Create gpg keys for ssh access to GitHub repo. This creates files with private and public keys in directory ~/.ssh/
-Copy contents of the new public key file: id_rsa.pub
-Add new key to your GitHub profile (Settings, GPG keys, add new), paste the key and add some name - could be anything.
-Clone the Repo into your azure cloud shell.
-Make sure the following environment variables are set and correspond to your azure account details:
-Make sure the following environment variables are set and correspond to your azure account details:
-ARM_CLIENT_ID ,ARM_CLIENT_SECRET, ARM_SUBSCRIPTION_ID, ARM_TENANT_ID
-Run below command to see the account details:
+### Getting Started
+
+1. Open Azure cloud shell
+2. Create gpg keys for ssh access to GitHub repo. This creates files with private and public keys in directory ~/.ssh/
+3. Copy contents of the new public key file: id_rsa.pub
+4. Add new key to your GitHub profile (Settings, GPG keys, add new), paste the key and add some name - could be anything.
+5. Clone the Repo into your azure cloud shell.
+6. Make sure the following environment variables are set and correspond to your azure account details:
+
+* ARM_CLIENT_ID 
+* ARM_CLIENT_SECRET
+* ARM_SUBSCRIPTION_ID
+* ARM_TENANT_ID
+
+7. Run below command to see the account details:
 	"az account list"
  
-Use below export command to assign the values from corresponding subscription to the above env vars.
+8. Use below export command to assign the values from corresponding subscription to the above env vars.
+
+```bash
 export ARM_CLIENT_ID=<value from property 'homeTenantId'>
 export ARM_CLIENT_SECRET=<value from>
 export ARM_SUBSCRIPTION_ID=<value from property 'id'>
 export ARM_TENANT_ID=<value from property 'tenantId'>
  
-Running the Python project
+
+## Running the Python project
+
 While still in Azure cloud shell cd into the project dir.
 Install & activate virtual environment, install dependencies.
 Create a webapp and deploy code from a local workspace to the app.
 This should result in the app running in the cloud and being accessible from the internet. Expected output for successfull deployment:
  
-**Passing tests that are displayed after running the make all command from the Makefile**
+## Passing tests that are displayed after running the make all command from the Makefile
 	
 	
 	
@@ -105,7 +115,7 @@ This should result in the app running in the cloud and being accessible from the
 
 	
 
-**Output of a test run**
+##Output of a test run
 	
 	
 	
@@ -118,7 +128,7 @@ This should result in the app running in the cloud and being accessible from the
 
 
 
-**Successful deploy of the project in Azure Pipelines.** 
+## Successful deploy of the project in Azure Pipelines
 
 	
 	
@@ -146,7 +156,7 @@ This should result in the app running in the cloud and being accessible from the
 	
 	
 
-Running Azure App Service from Azure Pipelines automatic deployment
+## Running Azure App Service from Azure Pipelines automatic deployment
 	
 	
 	
@@ -160,7 +170,7 @@ Running Azure App Service from Azure Pipelines automatic deployment
 
 	
 	
-Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
+## Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
 	
 	
 	
@@ -175,7 +185,7 @@ Successful prediction from deployed flask app in Azure Cloud Shell. The output s
 	
 	
 	
-Output of streamed log files from deployed application
+## Output of streamed log files from deployed application
 
 	
 	
@@ -194,7 +204,7 @@ Output of streamed log files from deployed application
 	
 
 	
-Enhancements
+## Future Enhancements
 	
 	
 This project can be adapted for use in a microservice architecture where the application is deployed into Azure from a Kubernetes cluster.
