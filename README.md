@@ -86,7 +86,7 @@ export ARM_CLIENT_ID=<value from property 'homeTenantId'>
 export ARM_CLIENT_SECRET=<value from>
 export ARM_SUBSCRIPTION_ID=<value from property 'id'>
 export ARM_TENANT_ID=<value from property 'tenantId'>
- 
+```
 
 ## Running the Python project
 
@@ -115,7 +115,7 @@ This should result in the app running in the cloud and being accessible from the
 
 	
 
-##Output of a test run
+## Output of a test run
 	
 	
 	
