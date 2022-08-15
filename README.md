@@ -129,14 +129,15 @@ Running Azure App Service from Azure Pipelines automatic deployment
 Successful prediction from deployed flask app in Azure Cloud Shell. The output should look similar to this:
 	
 	
-	![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184722922-aa0c3ef4-6051-4b66-9b29-e31ec7c035db.png)
+![Prediction_screenshot](https://user-images.githubusercontent.com/18601050/184723109-6968feaf-42ec-4c42-b620-00966d72abae.png)
 
 
 	
 Output of streamed log files from deployed application
 	
 	
-	![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184722938-4ca010dc-807b-436f-9a79-bdaa46fbfa7f.png)
+![App_Log_Stream](https://user-images.githubusercontent.com/18601050/184723143-7623e309-d13b-4697-ad1e-1fc07c971487.png)
+	
 
 	
 
