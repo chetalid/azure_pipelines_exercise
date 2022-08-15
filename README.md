@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/chetalid/azure_pipelines_exercise/actions/workflows/main.yml/badge.svg)](https://github.com/chetalid/azure_pipelines_exercise/actions/workflows/main.yml)
+
 # Azure WebApp Deployment 
 A sample Flask application to showcase the Azure Pipeline.
 
