@@ -6,7 +6,7 @@ A sample Flask application to showcase the Azure Pipeline.
 ## Environment
 Python 3.7
 
-# Overview of CI/CI Pipeline for Azure WebApp Deployment **
+# Overview of CI/CD Pipeline for Azure WebApp Deployment **
 		
 The goal of this project is to create infrastructure as code (IaC) in the form of a Terraform template as well as a Packer configuration to deploy a highly available website with a load balancer, as shown in the diagram below. The infrastructure is deployed into Azure in a customizable way based on specifications provided at build time, with an eye toward scaling the application for use in a CI/CD pipeline.
 
@@ -208,7 +208,21 @@ This should result in the app running in the cloud and being accessible from the
 
 	
 
-	
+
+
+
+## Application running on Azure Portal
+
+
+
+
+![Webapp_AzurePortal](https://user-images.githubusercontent.com/18601050/184920932-04ea18db-3dd0-48e0-a6cd-6d0105776328.png)
+
+
+
+
+
+
 ## Future Enhancements
 	
 	
