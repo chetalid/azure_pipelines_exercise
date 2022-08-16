@@ -32,9 +32,7 @@ This is a Project 2 submission demonstrating CI/CD techiques and skills acquired
 - [Future Enhancements](#future-enhancements)
 
 ## Demo
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_XoZenvKlLw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+[![Building a CI/CD Pipeline using Azure](screenshots/demo_screenshot.png)](https://www.youtube.com/watch?v=_XoZenvKlLw "Building a CI/CD Pipeline using Azure")
 https://youtu.be/_XoZenvKlLw
  
 ## Main Steps
