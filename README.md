@@ -53,9 +53,8 @@ https://www.youtube.com/watch?v=_XoZenvKlLw
 
  ## Project Plan
 Below are the links of Trello board and spreadsheet having the task details
-A link to a Trello board for the project
-	https://trello.com/b/YImOmwev/udacitycicdproject
-A link to a spreadsheet that includes the original and final project plan
+1. A link to a Trello board for the project -> https://trello.com/b/YImOmwev/udacitycicdproject
+2. A link to a spreadsheet that includes the original and final project plan ->
 	https://docs.google.com/spreadsheets/d/1xiUUmG4Ml3QKtJ14i1DrW9OuS8F8olzu6mtcofrdY1Q/edit#gid=0
 
 ## Instructions
