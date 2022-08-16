@@ -33,7 +33,8 @@ This is a Project 2 submission demonstrating CI/CD techiques and skills acquired
 
 ## Demo
 [![Building a CI/CD Pipeline using Azure](screenshots/demo_screenshot.png)](https://www.youtube.com/watch?v=_XoZenvKlLw "Building a CI/CD Pipeline using Azure")
-https://youtu.be/_XoZenvKlLw
+
+https://www.youtube.com/watch?v=_XoZenvKlLw
  
 ## Main Steps
 1. The project consist of the following main steps:
